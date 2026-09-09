@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Web Design & Development Services | Your Company</title>
+    <meta
+        name="description"
+        content="Professional web design and development services focused on fast, accessible, SEO-friendly websites."
+    >
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.example.com/">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Web Design & Development Services">
+    <meta
+        property="og:description"
+        content="Professional web design and development services focused on fast, accessible, SEO-friendly websites."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.example.com/">
+    <meta property="og:image" content="https://www.example.com/images/og-image.jpg">
+
+    <!-- Optional: Theme color -->
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <a href="/" aria-label="Your Company - Home">
+            <img
+                src="images/logo.png"
+                alt="Your Company logo"
+                width="150"
+                height="50"
+            >
+        </a>
+
+        <!-- Navigation -->
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main>
+
+        <!-- Hero section -->
+        <section id="hero" aria-labelledby="hero-heading">
+            <h1 id="hero-heading">
+                Professional Web Design & Development
+            </h1>
+
+            <p>
+                We create fast, accessible, and SEO-friendly websites
+                that help businesses grow online.
+            </p>
+
+            <a href="#contact">
+                Get Started
+            </a>
+        </section>
+
+        <!-- About section -->
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Us</h2>
+
+            <p>
+                We specialize in creating modern websites with a strong
+                focus on usability, accessibility, performance, and SEO.
+            </p>
+        </section>
+
+        <!-- Services section -->
+        <section id="services" aria-labelledby="services-heading">
+            <h2 id="services-heading">Our Services</h2>
+
+            <article>
+                <h3>Web Design</h3>
+                <p>
+                    Responsive and user-friendly website designs
+                    optimized for different screen sizes.
+                </p>
+            </article>
+
+            <article>
+                <h3>Web Development</h3>
+                <p>
+                    Fast and maintainable websites built using
+                    modern web technologies.
+                </p>
+            </article>
+
+            <article>
+                <h3>SEO Optimization</h3>
+                <p>
+                    Search-engine-friendly website structure,
+                    metadata, and content organization.
+                </p>
+            </article>
+        </section>
+
+        <!-- Image/content section -->
+        <section aria-labelledby="features-heading">
+            <h2 id="features-heading">Why Choose Us?</h2>
+
+            <img
+                src="images/web-development.jpg"
+                alt="Developer working on a modern website"
+                width="800"
+                height="500"
+                loading="lazy"
+            >
+
+            <ul>
+                <li>Mobile-friendly design</li>
+                <li>Accessible HTML structure</li>
+                <li>SEO-friendly markup</li>
+                <li>Fast page performance</li>
+            </ul>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Us</h2>
+
+            <form action="/contact" method="post">
+
+                <div>
+                    <label for="name">Name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        autocomplete="name"
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        autocomplete="email"
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="message">Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Your Company. All rights reserved.</p>
+
+        <nav aria-label="Footer navigation">
+            <ul>
+                <li><a href="/privacy">Privacy Policy</a></li>
+                <li><a href="/terms">Terms of Service</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>
